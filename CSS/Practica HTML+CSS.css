@@ -1,0 +1,10 @@
+h1{
+    font-family: cambria;
+    font-weight: normal;
+    display: inline;
+}
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+}
+nav {font-variant-caps: all-small-caps; font-size: 20px}
