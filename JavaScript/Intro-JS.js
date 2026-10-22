@@ -39,3 +39,4 @@
 // alert() //per mostrar informació a l'usuari (OUTPUT o pop-up)
 // console.log() //per mostrar informació a la consola (F12) del navegador
 // document.write() //per mostrar informació a la pàgina web
+// <br> //Salt de linia (=\n a python)
