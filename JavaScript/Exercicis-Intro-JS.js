@@ -102,3 +102,37 @@
 // let b = prompt ("Introdueix una altra paraula");
 // let c = (a==b) ? "Les dues paraules són iguals":"Les dues paraules són diferents";
 // console.log(c);
+
+// 12.1.- Fes un programa que, donat un número (que demanarem per pantalla fent servir prompt() escrigui a la consola el doble, el triple i el quadrat del número llegit. 
+// let numero = parseInt(prompt("Introdueix un nombre"))
+// let quadrat = numero * numero
+// let cub = quadrat * numero 
+// let aLaQuatre = cub * numero 
+// console.log(quadrat,cub,aLaQuatre) 
+
+// 12.2.- Fes un programa en JavaScript que calculi el perímetre i l’àrea d’un rectangle de 20 i 80 metres de costat. Modifica el programa perquè els valors dels costats es demanin amb prompt(). 
+// let costatsA = parseInt(prompt("Introdueix valor costatsA (80)"))
+// let costatsB = parseInt(prompt("Introdueix valor costatsB (20)"))
+// let perimetre = 2*costatsA + 2*costatsB
+// let area = costatsA * costatsB
+// console.log(perimetre,area)
+
+// 12.3 Fes un programa que, donat el radi d’una circumferència, calculi, a una nova variable i escrigui a la consola, la longitud de la circumferència i l’àrea del cercle. Fes servir una constant per guardar el número pi (3,141593) a) Longitud de la circumferència: 2 * 3.1416 * ràdio b) Àrea del cercle: 3.1416 * radio^2
+// let radi = parseInt(prompt("Introdueix radi cercle"))
+// const pi = 3.141593
+// let longitud = 2*pi*radi
+// let area = pi*(radi^2)
+// console.log(longitud,area)
+
+// 12.4 Escriu un programa en JavaScript que calculi el sou mensual a partir del nombre d’hores treballades (160 hores) i el preu per hora treballada (12€). Prova amb altres valors. 
+// let hores = parseInt(prompt("Introdueix hores treballades mensuals"))
+// let preuPerH = parseInt(prompt("Introdueix per per hora"))
+// let sou = hores*preuPerH 
+// console.log(sou) 
+
+// 12.5 Fes un programa en JavaScript que, donades dues variables x i y, intercanviï els seus valores de manera que x acabi tenint el valor de y i y acabi tenint el valor de x. Així, si inicialment tenim: let x = "Hola", y = 3; Quan el programa acabi, x haurà de guardar un 3 i y un “Hola”. 
+// let x = prompt("Introdueix valor de x")
+// let y = prompt("Introdueix valor de y")
+// let aux = x
+// x = y
+// y = aux
