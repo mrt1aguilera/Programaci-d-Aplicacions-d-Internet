@@ -215,14 +215,23 @@
 //     n++
 // }
 
-// Escriu un programa que escrigui la seqüència de Fibonnacci des d’u fins a un número N donat.
-let n = parseInt(prompt("Introdueix un nombre"))
-let a = 0
-let b = 1
-let res = 0
-while (res < n) {
-    console.log(res)
-    res = a + b
-    a = b
-    b = res
-} 
+// 17.4 Escriu un programa que escrigui la seqüència de Fibonnacci des d’u fins a un número N donat.
+// let n = parseInt(prompt("Introdueix un nombre"))
+// let a = 0
+// let b = 1
+// let res = 0
+// while (res < n) {
+//     console.log(res)
+//     res = a + b
+//     a = b
+//     b = res
+// }
+
+// 18.3 Escriure un programa, fent servir la instrucció do-while, que, donat un número N, escrigui a la consola tots els números de N a 1 (per tant, en ordre descendent). Observa el que passa si N < 1.
+// let n = parseInt(prompt("Introdueix un nombre"))
+// do{
+//     console.log(n)
+//     n--
+// }
+// while(n >= 1)
+
